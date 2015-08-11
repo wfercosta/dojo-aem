@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/dojo-aem"/>
-    <filter root="/etc/dojo-aem"/>
+    <filter root="/etc/designs/dojo-aem"/>
     <filter root="/content/dojo-aem"/>
     <filter root="/content/dam/dojo-aem"/>
 </workspaceFilter>
