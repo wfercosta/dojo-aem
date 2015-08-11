@@ -8,4 +8,7 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="home"
         sling:resourceType="dojo-aem/components/pages/page_basica"/>
+    <servicos/>
+    <faleconosco/>
+    <sobre/>
 </jcr:root>
