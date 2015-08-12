@@ -10,7 +10,6 @@
         jcr:title="dojo-aem"
         sling:resourceType="dojo-aem/components/pages/page_basica"/>
     <home/>
-    <sobre1/>
     <faleconosco/>
     <servicos/>
 </jcr:root>

@@ -6,6 +6,30 @@
         jcr:primaryType="cq:Widget"
         xtype="tabpanel">
         <items jcr:primaryType="cq:WidgetCollection">
+            <geral
+                jcr:primaryType="cq:Panel"
+                title="Geral">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <imagem_alinhamento
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="d"
+                        fieldLabel="Imagem alinhamento"
+                        name="./imgAlinhamento"
+                        type="radiobutton"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <esquerda
+                                jcr:primaryType="nt:unstructured"
+                                text="Esquerda"
+                                value="e"/>
+                            <direita
+                                jcr:primaryType="nt:unstructured"
+                                text="Direita"
+                                value="d"/>
+                        </options>
+                    </imagem_alinhamento>
+                </items>
+            </geral>
             <text
                 jcr:primaryType="cq:Widget"
                 hideLabel="{Boolean}true"
