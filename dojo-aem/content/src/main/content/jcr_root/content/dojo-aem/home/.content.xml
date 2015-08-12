@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-11T20:11:59.509-03:00"
+        cq:lastModified="{Date}2015-08-11T21:39:04.992-03:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/etc/scaffolding"
         cq:template="/apps/dojo-aem/templates/page_basica"
@@ -15,10 +15,32 @@
             <secao
                 jcr:created="{Date}2015-08-11T20:11:59.506-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-08-11T20:11:59.506-03:00"
+                jcr:lastModified="{Date}2015-08-11T21:06:44.838-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="dojo-aem/components/content/secao"/>
+                sling:resourceType="dojo-aem/components/content/secao"
+                layout="3"
+                titulo="A Adobe Marketing Cloud é líder do setor"/>
+            <secao_0
+                jcr:created="{Date}2015-08-11T21:07:10.040-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-11T21:07:26.519-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dojo-aem/components/content/secao"
+                layout="2"
+                titulo="Recursos"/>
+            <secao_chamada_acao
+                jcr:created="{Date}2015-08-11T21:30:50.396-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-11T21:39:04.989-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dojo-aem/components/content/secao_chamada_acao"
+                chamada="Quer saber mais?"
+                link="http://www.adobe.com/marketing-cloud/enterprise-content-management.html"
+                nova="true"
+                rotulo="Site do produto"/>
         </par>
     </jcr:content>
 </jcr:root>
