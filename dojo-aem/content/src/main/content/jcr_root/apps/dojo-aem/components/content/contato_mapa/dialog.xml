@@ -58,7 +58,9 @@
                         xtype="textfield"/>
                 </items>
             </social>
-            <mapa jcr:primaryType="cq:Panel">
+            <mapa
+                jcr:primaryType="cq:Panel"
+                title="Mapa">
                 <items jcr:primaryType="cq:WidgetCollection">
                     <mapa_lat
                         jcr:primaryType="cq:Widget"
