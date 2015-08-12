@@ -25,15 +25,15 @@
         <ul class="list-inline">
             
             <% if (hasFacebook) { %>
-                <li><a href="<%=facebook%>"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                <li><a href="<%=facebook%>" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a></li>
             <% } %> 
                 
             <% if (hasLinkedin) { %>
-                <li><a href="<%=linkedin%>"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                <li><a href="<%=linkedin%>"  target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
             <% } %> 
                         
             <% if (hasTwitter) { %>           
-                <li><a href="<%=twitter%>"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+                <li><a href="<%=twitter%>"  target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a></li>
             <% } %> 
                      
         </ul>
