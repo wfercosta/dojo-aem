@@ -2,3 +2,4 @@
 # Configurações do git ignore
 
 target/
+.brackets.json

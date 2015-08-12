@@ -9,6 +9,6 @@
         jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="sobre"
-        jcr:uuid="b523a996-6b1f-4b52-9df1-25eb8de398eb"
+        jcr:uuid="615ef658-4c7c-460a-9698-3abd691d79db"
         sling:resourceType="dojo-aem/components/pages/page_basica"/>
 </jcr:root>
