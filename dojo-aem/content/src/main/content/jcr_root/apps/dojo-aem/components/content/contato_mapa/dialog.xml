@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <geral
+                jcr:primaryType="cq:Panel"
+                title="Geral">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <contato_endereco
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Endereço"
+                        name="./endereco"
+                        xtype="textarea"/>
+                    <contato_telefone
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Telefone"
+                        name="./telefone"
+                        xtype="textfield"/>
+                    <contato_email
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="E-mail"
+                        name="./email"
+                        xtype="textfield"/>
+                    <contato_horario
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Horário de funcionamento"
+                        name="./horario"
+                        xtype="textfield"/>
+                </items>
+            </geral>
+            <social
+                jcr:primaryType="cq:Panel"
+                title="Social">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <perfil_facebook
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil facebook"
+                        name="./facebook"
+                        xtype="textfield"/>
+                    <perfil_twitter
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil twitter"
+                        name="./twitter"
+                        xtype="textfield"/>
+                    <perfil_linkedin
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil linkedin"
+                        name="./linkedin"
+                        xtype="textfield"/>
+                    <perfil_google
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil google"
+                        name="./google"
+                        xtype="textfield"/>
+                </items>
+            </social>
+            <mapa jcr:primaryType="cq:Panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <mapa_lat
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Latitude"
+                        name="./lat"
+                        xtype="textfield"/>
+                    <mapa_lng
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Longitude"
+                        name="./lng"
+                        xtype="textfield"/>
+                </items>
+            </mapa>
+        </items>
+    </items>
+</jcr:root>

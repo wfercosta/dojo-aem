@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-10T23:37:15.329-03:00"
+        cq:lastModified="{Date}2015-08-12T09:09:25.034-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -10,5 +10,27 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="fale conosco"
         jcr:uuid="edca937e-2e2c-4307-9ede-7af40cdd8ed7"
-        sling:resourceType="dojo-aem/components/pages/page_basica"/>
+        sling:resourceType="dojo-aem/components/pages/page_basica">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <contato_mapa
+                jcr:created="{Date}2015-08-12T09:06:54.490-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-12T09:09:25.024-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dojo-aem/components/content/contato_mapa"
+                email="contato@ciandt.com"
+                endereco="Rua Paraíba, 330 - 16º andar&#xa;Séculus Business Center&#xa;30130-140, Belo Horizonte, MG"
+                facebook="http://www.facebook.com"
+                google="http://plus.google.com"
+                horario="Segunda - Sexta: 9:00 AM à 5:00 PM"
+                lat="19.9290643"
+                linkedin="http://www.linkedin.com"
+                lng="-43.9317961"
+                telefone="+55 (31) 3029 2600"
+                twitter="http://www.twitter.com"/>
+        </par>
+    </jcr:content>
 </jcr:root>

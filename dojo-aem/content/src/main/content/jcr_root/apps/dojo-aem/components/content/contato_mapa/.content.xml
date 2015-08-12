@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Componente que permite cadastrar informações de contato juntamente com a referência em mapa"
+    jcr:primaryType="cq:Component"
+    jcr:title="Contato com mapa google"
+    allowedParents="[*/parsys]"
+    componentGroup="dojo-aem"/>
