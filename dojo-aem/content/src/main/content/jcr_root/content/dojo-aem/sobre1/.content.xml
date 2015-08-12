@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-10T23:36:54.752-03:00"
+        cq:lastModified="{Date}2015-08-11T23:46:12.437-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -10,5 +10,18 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="sobre"
         jcr:uuid="615ef658-4c7c-460a-9698-3abd691d79db"
-        sling:resourceType="dojo-aem/components/pages/page_basica"/>
+        sling:resourceType="dojo-aem/components/pages/page_basica">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <secao
+                jcr:created="{Date}2015-08-11T23:38:53.923-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-11T23:46:12.434-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dojo-aem/components/content/secao"
+                layout="1"/>
+        </par>
+    </jcr:content>
 </jcr:root>

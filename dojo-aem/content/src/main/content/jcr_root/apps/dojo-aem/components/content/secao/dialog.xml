@@ -15,6 +15,18 @@
                         fieldLabel="Título da seção"
                         name="./titulo"
                         xtype="textfield"/>
+                    <titulo_ocultar
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Título ocultar "
+                        name="./ocultar"
+                        type="checkbox"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <ocultar
+                                jcr:primaryType="nt:unstructured"
+                                value="true"/>
+                        </options>
+                    </titulo_ocultar>
                     <layout
                         jcr:primaryType="cq:Widget"
                         fieldLabel="Layout"

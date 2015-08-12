@@ -4,15 +4,19 @@
 <%
    Integer layout = Integer.parseInt(properties.get("layout", "3"));
    String titulo = properties.get("titulo", "{{titulo}}");
+   Boolean isOcultar = !Boolean.valueOf(properties.get("ocultar", "false"));
 %>
     
     <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                <%=titulo%>
-            </h1>
-        </div>
-    
+        
+        <% if ( isOcultar ) { %>
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    <%=titulo%>
+                </h1>
+            </div>
+        <% } %>
+            
         <% if ( layout == 1 ) { %>
             <div class="col-lg-12">
                 <cq:include path="par_secao_col_12_1" resourceType="/libs/foundation/components/parsys"/>
