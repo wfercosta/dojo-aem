@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T09:09:25.034-03:00"
+        cq:lastModified="{Date}2015-08-12T09:13:46.812-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -17,7 +17,7 @@
             <contato_mapa
                 jcr:created="{Date}2015-08-12T09:06:54.490-03:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2015-08-12T09:09:25.024-03:00"
+                jcr:lastModified="{Date}2015-08-12T09:13:46.805-03:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="dojo-aem/components/content/contato_mapa"
