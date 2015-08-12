@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-11T21:39:04.992-03:00"
+        cq:lastModified="{Date}2015-08-11T22:42:55.943-03:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/etc/scaffolding"
         cq:template="/apps/dojo-aem/templates/page_basica"
@@ -20,7 +20,59 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="dojo-aem/components/content/secao"
                 layout="3"
-                titulo="A Adobe Marketing Cloud é líder do setor"/>
+                titulo="A Adobe Marketing Cloud é líder do setor">
+                <par_secao_col_4_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <panel
+                        jcr:created="{Date}2015-08-11T22:23:03.263-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-11T22:40:51.212-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/panel"
+                        descricao="É uma solução abrangente de gerenciamento de conteúdo para a construção de sites, aplicativos móveis e formulários, além de facilitar o gerenciamento do conteúdo e ativos de marketing."
+                        icone="fa-question-circle"
+                        link="http://www.adobe.com/marketing-cloud/enterprise-content-management.html"
+                        nova="true"
+                        rotulo="Saiba mais"
+                        titulo="O que é o Adobe Experience Manager?"/>
+                </par_secao_col_4_1>
+                <par_secao_col_4_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <panel
+                        jcr:created="{Date}2015-08-11T22:24:22.547-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-11T22:42:06.659-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/panel"
+                        descricao="Ofereça experiências digitais durante o ciclo de vida do cliente que fortaleçam a fidelidade à marca e impulsionem a demanda."
+                        icone="fa-clock-o"
+                        link="http://www.adobe.com/marketing-cloud/enterprise-content-management.html"
+                        nova="true"
+                        rotulo="Saiba mais"
+                        titulo="Crie valor para toda a vida"/>
+                </par_secao_col_4_2>
+                <par_secao_col_4_4
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <panel
+                        jcr:created="{Date}2015-08-11T22:24:27.058-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-11T22:42:55.939-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/panel"
+                        descricao="Forneça e gerencie experiências responsivas, relevantes e sociais. Coloque o cliente no centro de cada interação."
+                        icone="fa-clock-o"
+                        link="http://www.adobe.com/marketing-cloud/enterprise-content-management.html"
+                        nova="true"
+                        rotulo="Saiba mais"
+                        titulo="Faça abordagens oportunas e pessoais"/>
+                </par_secao_col_4_4>
+            </secao>
             <secao_0
                 jcr:created="{Date}2015-08-11T21:07:10.040-03:00"
                 jcr:createdBy="admin"

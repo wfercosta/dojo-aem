@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <geral
+                jcr:primaryType="cq:Panel"
+                title="Geral">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <titulo_texto
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Título"
+                        name="./titulo"
+                        xtype="textfield"/>
+                    <titulo_icone
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Ícone"
+                        name="./icone"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <question_mark
+                                jcr:primaryType="nt:unstructured"
+                                text="Interrogação"
+                                value="fa-question-circle"/>
+                            <clock
+                                jcr:primaryType="nt:unstructured"
+                                text="Relógio"
+                                value="fa-clock-o"/>
+                        </options>
+                    </titulo_icone>
+                    <btn_rotulo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Botão rótulo"
+                        name="./rotulo"
+                        xtype="textfield"/>
+                    <btn_link
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Ligação"
+                        name="./link"
+                        xtype="textfield"/>
+                    <btn_link_tipo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Tipo ligação"
+                        name="./nova"
+                        type="checkbox"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <nova_janela
+                                jcr:primaryType="nt:unstructured"
+                                text="Nova janela"
+                                value="true"/>
+                        </options>
+                    </btn_link_tipo>
+                    <descricao
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Descricao"
+                        name="./descricao"
+                        xtype="textarea"/>
+                </items>
+            </geral>
+        </items>
+    </items>
+</jcr:root>
