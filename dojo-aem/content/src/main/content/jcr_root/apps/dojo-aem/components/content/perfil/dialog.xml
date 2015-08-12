@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <geral
+                jcr:primaryType="cq:Panel"
+                title="Geral">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <colaborador_nome
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Nome do colaborador"
+                        name="./nome"
+                        xtype="textfield"/>
+                    <colaborador_cargo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Cargo"
+                        name="./cargo"
+                        xtype="textfield"/>
+                    <colaborador_citacao
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Citação"
+                        name="./citacao"
+                        xtype="textfield"/>
+                </items>
+            </geral>
+            <social
+                jcr:primaryType="cq:Panel"
+                title="Social">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <perfil_facebook
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil facebook"
+                        name="./facebook"
+                        xtype="textfield"/>
+                    <perfil_twitter
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil twitter"
+                        name="./twitter"
+                        xtype="textfield"/>
+                    <perfil_linkedin
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Perfil linkedin"
+                        name="./linkedin"
+                        xtype="textfield"/>
+                </items>
+            </social>
+        </items>
+    </items>
+</jcr:root>

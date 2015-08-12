@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T00:19:28.886-03:00"
+        cq:lastModified="{Date}2015-08-12T08:37:24.239-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -45,7 +45,80 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="dojo-aem/components/content/secao"
                 layout="3"
-                titulo="Nosso time"/>
+                titulo="Nosso time">
+                <par_secao_col_4_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <perfil_0
+                        jcr:created="{Date}2015-08-12T08:26:03.340-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T08:29:45.298-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/perfil"
+                        cargo="PDM"
+                        citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
+                        linkedin="https://www.linkedin.com/"
+                        nome="Juliana Rodrigues"
+                        twitter="https://twitter.com/"/>
+                    <perfil
+                        jcr:created="{Date}2015-08-12T08:28:19.131-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T08:37:24.235-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/perfil"
+                        cargo="Engenheiro de Software"
+                        citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
+                        facebook="http://facebook.com"
+                        linkedin="https://www.linkedin.com/"
+                        nome="Wander Costa"
+                        twitter="https://twitter.com/"/>
+                </par_secao_col_4_1>
+                <par_secao_col_4_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <perfil
+                        jcr:created="{Date}2015-08-12T08:27:17.226-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T08:31:04.146-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/perfil"
+                        cargo="Especialista Adobe"
+                        citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
+                        facebook="http://facebook.com"
+                        linkedin="https://www.linkedin.com/"
+                        nome="Ricardo Roberto Trigo"/>
+                    <perfil_0
+                        jcr:created="{Date}2015-08-12T08:35:34.176-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T08:36:22.816-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/perfil"
+                        cargo="Arquiteto de Software"
+                        citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
+                        linkedin="https://www.linkedin.com/"
+                        nome="Fabio Augusto Pereira"
+                        twitter="https://twitter.com/"/>
+                </par_secao_col_4_2>
+                <par_secao_col_4_4
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <perfil
+                        jcr:created="{Date}2015-08-12T08:27:57.406-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T08:32:21.503-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/perfil"
+                        cargo="Analista de Recursos Humanos &amp; Talentos"
+                        citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
+                        linkedin="https://www.linkedin.com/"
+                        nome="Leticia Mattoso Martelli"/>
+                </par_secao_col_4_4>
+            </secao_0>
             <secao_1
                 jcr:created="{Date}2015-08-12T00:18:49.690-03:00"
                 jcr:createdBy="admin"
