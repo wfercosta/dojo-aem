@@ -16,7 +16,10 @@
 %>
     
  <div class="thumbnail">
-    <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+    <!-- img class="img-responsive" src="http://placehold.it/750x450" alt="" -->
+    <div class="img-responsive">
+        <cq:include path="par_imagem_perfil" resourceType="/libs/foundation/components/parsys"/>
+    </div>
     <div class="caption">
         <h3><%=nome%><br>
             <small><%=cargo%></small>

@@ -8,7 +8,10 @@
     
     <% if (!isDireita) { %>
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            <!--img class="img-responsive" src="http://placehold.it/700x450" alt=""-->
+            <div class="img-responsive">
+                <cq:include path="par_imagem_perfil_1" resourceType="/libs/foundation/components/parsys"/>
+            </div>
         </div>    
     <% } %>
     
@@ -17,9 +20,10 @@
     </div>
     
     <% if (isDireita) { %>
-        <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
-        </div>    
+        <!--img class="img-responsive" src="http://placehold.it/700x450" alt=""-->
+        <div class="img-responsive">
+            <cq:include path="par_imagem_perfil_2" resourceType="/libs/foundation/components/parsys"/>
+        </div>   
     <% } %>
     
 </div>
