@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T18:03:32.822-03:00"
+        cq:lastModified="{Date}2015-08-12T22:46:20.552-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -26,6 +26,15 @@
                 <par_secao_col_12_1
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="foundation/components/parsys">
+                    <pagina_header
+                        jcr:created="{Date}2015-08-12T22:41:46.428-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-12T22:46:20.548-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/pagina_header"
+                        descricao="os nossos colaboradores e nossa empresa"
+                        titulo="Sobre"/>
                     <texto_rico_imagem
                         jcr:created="{Date}2015-08-12T00:09:31.597-03:00"
                         jcr:createdBy="admin"
