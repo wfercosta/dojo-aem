@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-14T15:56:21.140-03:00"
+        cq:lastModified="{Date}2015-08-14T16:44:58.296-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -56,7 +56,35 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="dojo-aem/components/content/secao"
                 layout="1"
-                titulo="Nossos Serviços"/>
+                titulo="Nossos Serviços">
+                <par_secao_col_12_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <aba
+                        jcr:created="{Date}2015-08-14T16:16:33.189-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T16:44:58.292-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="dojo-aem/components/content/aba"
+                        rotulo_1="Serviço 01"
+                        rotulo_2="Serviço 02"
+                        rotulo_3="Serviço 03"
+                        text1="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;"
+                        text2="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;"
+                        text3="&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.&lt;/p>&#xa;">
+                        <par_aba_1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"/>
+                        <par_aba_2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"/>
+                        <par_aba_3
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"/>
+                    </aba>
+                </par_secao_col_12_1>
+            </secao>
         </par>
     </jcr:content>
 </jcr:root>
