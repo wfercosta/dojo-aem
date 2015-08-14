@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T22:46:20.552-03:00"
+        cq:lastModified="{Date}2015-08-14T15:40:48.171-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -43,7 +43,22 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="dojo-aem/components/content/texto_rico_imagem"
                         imgAlinhamento="e"
-                        text="&lt;h2>Sobre a nossa empresa&lt;/h2>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?&lt;/p>&#xa;"/>
+                        text="&lt;h2>Sobre a nossa empresa&lt;/h2>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?&lt;/p>&#xa;">
+                        <par_imagem_perfil_1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:30:07.562-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:30:31.781-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="357"
+                                width="555"/>
+                        </par_imagem_perfil_1>
+                    </texto_rico_imagem>
                 </par_secao_col_12_1>
             </secao>
             <secao_0
@@ -69,7 +84,22 @@
                         citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
                         linkedin="https://www.linkedin.com/"
                         nome="Juliana Rodrigues"
-                        twitter="https://twitter.com/"/>
+                        twitter="https://twitter.com/">
+                        <par_imagem_perfil
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:31:10.768-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:32:12.229-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="210"
+                                width="350"/>
+                        </par_imagem_perfil>
+                    </perfil_0>
                     <perfil
                         jcr:created="{Date}2015-08-12T08:28:19.131-03:00"
                         jcr:createdBy="admin"
@@ -82,7 +112,22 @@
                         facebook="http://facebook.com"
                         linkedin="https://www.linkedin.com/"
                         nome="Wander Costa"
-                        twitter="https://twitter.com/"/>
+                        twitter="https://twitter.com/">
+                        <par_imagem_perfil
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:31:18.443-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:32:40.952-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="210"
+                                width="350"/>
+                        </par_imagem_perfil>
+                    </perfil>
                 </par_secao_col_4_1>
                 <par_secao_col_4_2
                     jcr:primaryType="nt:unstructured"
@@ -98,7 +143,22 @@
                         citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
                         facebook="http://facebook.com"
                         linkedin="https://www.linkedin.com/"
-                        nome="Ricardo Roberto Trigo"/>
+                        nome="Ricardo Roberto Trigo">
+                        <par_imagem_perfil
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:31:23.607-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:33:20.848-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="210"
+                                width="350"/>
+                        </par_imagem_perfil>
+                    </perfil>
                     <perfil_0
                         jcr:created="{Date}2015-08-12T08:35:34.176-03:00"
                         jcr:createdBy="admin"
@@ -110,7 +170,22 @@
                         citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
                         linkedin="https://www.linkedin.com/"
                         nome="Fabio Augusto Pereira"
-                        twitter="https://twitter.com/"/>
+                        twitter="https://twitter.com/">
+                        <par_imagem_perfil
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:31:29.981-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:33:57.648-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="210"
+                                width="350"/>
+                        </par_imagem_perfil>
+                    </perfil_0>
                 </par_secao_col_4_2>
                 <par_secao_col_4_4
                     jcr:primaryType="nt:unstructured"
@@ -125,9 +200,31 @@
                         cargo="Analista de Recursos Humanos &amp; Talentos"
                         citacao="&quot;We develop people before we develop software&quot; - Cesar Gon, CEO"
                         linkedin="https://www.linkedin.com/"
-                        nome="Leticia Mattoso Martelli"/>
+                        nome="Leticia Mattoso Martelli">
+                        <par_imagem_perfil
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:31:35.214-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:34:55.725-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                fileReference="/content/dam/dojo-aem/700x450.png"
+                                height="210"
+                                width="350"/>
+                        </par_imagem_perfil>
+                    </perfil>
                 </par_secao_col_4_4>
             </secao_0>
+            <image
+                jcr:created="{Date}2015-08-14T15:37:01.813-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-14T15:37:01.813-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/image"/>
             <secao_1
                 jcr:created="{Date}2015-08-12T00:18:49.690-03:00"
                 jcr:createdBy="admin"
@@ -136,7 +233,92 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="dojo-aem/components/content/secao"
                 layout="6"
-                titulo="Nossos clientes"/>
+                titulo="Nossos clientes">
+                <par_secao_col_sm_6_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image
+                        jcr:created="{Date}2015-08-14T15:36:54.175-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:12.716-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_1>
+                <par_secao_col_sm_6_4
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image_copy
+                        jcr:created="{Date}2015-08-14T15:36:59.574-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:41.426-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_4>
+                <par_secao_col_sm_6_2
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image
+                        jcr:created="{Date}2015-08-14T15:36:59.574-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:41.426-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_2>
+                <par_secao_col_sm_6_3
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image_copy
+                        jcr:created="{Date}2015-08-14T15:36:59.574-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:41.426-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_3>
+                <par_secao_col_sm_6_6
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image_copy
+                        jcr:created="{Date}2015-08-14T15:36:59.574-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:41.426-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_6>
+                <par_secao_col_sm_6_5
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image_copy
+                        jcr:created="{Date}2015-08-14T15:36:59.574-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:39:41.426-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/500x300.png"
+                        height="99"
+                        width="165"/>
+                </par_secao_col_sm_6_5>
+            </secao_1>
         </par>
     </jcr:content>
     <par

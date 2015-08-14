@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T22:51:27.935-03:00"
+        cq:lastModified="{Date}2015-08-14T15:28:55.156-03:00"
         cq:lastModifiedBy="admin"
         cq:scaffolding="/etc/scaffolding"
         cq:template="/apps/dojo-aem/templates/page_basica"
@@ -105,7 +105,27 @@
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="dojo-aem/components/content/texto_rico_imagem"
                         imgAlinhamento="d"
-                        text="&lt;p>&lt;b>A melhor experiência digital é consistente&lt;/b>&lt;/p>&#xa;&lt;p>Simplifique a criação, o gerenciamento e a implantação do conteúdo e dos ativos em sites, aplicativos móveis e muito mais.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerencie seus sites com facilidade&lt;/b>&lt;/p>&#xa;&lt;p>Crie e proporcione rapidamente experiências móveis e na Web relevantes, diminuindo as demandas no seu departamento de TI&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerenciamento de conteúdo móvel&lt;/b>&lt;/p>&#xa;&lt;p>À medida que você integrar dispositivos móveis aos seus esforços de marketing, garanta que essa experiência seja ideal em todos os dispositivos.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Comércio&lt;/b>&lt;/p>&#xa;&lt;p>Proporcione experiências de compras personalizadas e envolventes, que incorporem vídeos, redes sociais e outros meios dinâmicos.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Serviços gerenciados&lt;/b>&lt;/p>&#xa;&lt;p>Otimize a implantação de conteúdo com a Adobe como seu único parceiro de hospedagem e suporte.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerenciamento de campanhas de marketing&lt;/b>&lt;/p>&#xa;&lt;p>Organize, inicie e otimize campanhas em canais digitais de um único local.&lt;/p>&#xa;"/>
+                        text="&lt;p>&lt;b>A melhor experiência digital é consistente&lt;/b>&lt;/p>&#xa;&lt;p>Simplifique a criação, o gerenciamento e a implantação do conteúdo e dos ativos em sites, aplicativos móveis e muito mais.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerencie seus sites com facilidade&lt;/b>&lt;/p>&#xa;&lt;p>Crie e proporcione rapidamente experiências móveis e na Web relevantes, diminuindo as demandas no seu departamento de TI&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerenciamento de conteúdo móvel&lt;/b>&lt;/p>&#xa;&lt;p>À medida que você integrar dispositivos móveis aos seus esforços de marketing, garanta que essa experiência seja ideal em todos os dispositivos.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Comércio&lt;/b>&lt;/p>&#xa;&lt;p>Proporcione experiências de compras personalizadas e envolventes, que incorporem vídeos, redes sociais e outros meios dinâmicos.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Serviços gerenciados&lt;/b>&lt;/p>&#xa;&lt;p>Otimize a implantação de conteúdo com a Adobe como seu único parceiro de hospedagem e suporte.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Gerenciamento de campanhas de marketing&lt;/b>&lt;/p>&#xa;&lt;p>Organize, inicie e otimize campanhas em canais digitais de um único local.&lt;/p>&#xa;">
+                        <par_imagem_perfil_2
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys"/>
+                        <par_imagem_perfil_1
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="foundation/components/parsys">
+                            <image
+                                jcr:created="{Date}2015-08-14T15:19:57.701-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2015-08-14T15:28:55.152-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="foundation/components/image"
+                                height="357"
+                                imageRotate="0"
+                                width="555">
+                                <file/>
+                            </image>
+                        </par_imagem_perfil_1>
+                    </texto_rico_imagem>
                 </par_secao_col_12_1>
             </secao_0>
             <secao_chamada_acao

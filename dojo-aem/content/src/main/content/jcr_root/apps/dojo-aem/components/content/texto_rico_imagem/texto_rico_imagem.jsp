@@ -8,10 +8,8 @@
     
     <% if (!isDireita) { %>
         <div class="col-md-6">
-            <!--img class="img-responsive" src="http://placehold.it/700x450" alt=""-->
-            <div class="img-responsive">
-                <cq:include path="par_imagem_perfil_1" resourceType="/libs/foundation/components/parsys"/>
-            </div>
+            <!-- img class="img-responsive" src="http://placehold.it/700x450" alt="" -->
+            <cq:include path="par_imagem_perfil_1" resourceType="/libs/foundation/components/parsys"/>
         </div>    
     <% } %>
     
@@ -20,10 +18,11 @@
     </div>
     
     <% if (isDireita) { %>
-        <!--img class="img-responsive" src="http://placehold.it/700x450" alt=""-->
-        <div class="img-responsive">
-            <cq:include path="par_imagem_perfil_2" resourceType="/libs/foundation/components/parsys"/>
-        </div>   
+        <div class="col-md-6">
+            <!--img class="img-responsive" src="http://placehold.it/700x450" alt="" -->
+            <cq:include path="par_imagem_perfil_1" resourceType="/libs/foundation/components/parsys"/>        
+        </div>
+        
     <% } %>
     
 </div>

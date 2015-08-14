@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:mixinTypes="[mix:lockable]"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:lastModified="{Date}2015-08-10T23:11:23.681-03:00"
@@ -9,7 +10,10 @@
         jcr:title="dojo-aem"
         sling:resourceType="wcm/core/components/designer"/>
     <css/>
-    <font-awesome/>
     <images/>
     <js/>
+    <_x002e_DS_Store/>
+    <_x002e__.DS_Store/>
+    <font-awesome/>
+    <_x002e__font-awesome/>
 </jcr:root>
