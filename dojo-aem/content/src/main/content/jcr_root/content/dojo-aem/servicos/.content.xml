@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2015-08-12T22:45:34.649-03:00"
+        cq:lastModified="{Date}2015-08-14T15:56:21.140-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/dojo-aem/templates/page_basica"
         jcr:isCheckedOut="{Boolean}true"
@@ -23,6 +23,31 @@
                 sling:resourceType="dojo-aem/components/content/pagina_header"
                 descricao="que podemos prestar para você e sua empresa"
                 titulo="Serviços"/>
+            <secao_0
+                jcr:created="{Date}2015-08-14T15:46:29.160-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2015-08-14T15:51:59.822-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="dojo-aem/components/content/secao"
+                layout="1"
+                ocultar="true">
+                <par_secao_col_12_1
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/parsys">
+                    <image
+                        jcr:created="{Date}2015-08-14T15:50:45.511-03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2015-08-14T15:56:21.135-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="foundation/components/image"
+                        fileReference="/content/dam/dojo-aem/1200x300.png"
+                        height="285"
+                        imageRotate="0"
+                        width="1140"/>
+                </par_secao_col_12_1>
+            </secao_0>
             <secao
                 jcr:created="{Date}2015-08-12T08:38:32.331-03:00"
                 jcr:createdBy="admin"

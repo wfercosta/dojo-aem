@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:primaryType="dam:Asset">
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c13d8d68-0990-4a34-bcc8-bff53cdcc37d">
     <jcr:content
+        cq:name="500x300.png"
+        cq:parentPath="/content/dam/dojo-aem"
         dam:lastInvalidateCache="{Date}2015-08-14T15:37:49.272-03:00"
         dam:s7damAnchorX="{Long}250"
         dam:s7damAnchorY="{Long}150"
@@ -9,9 +14,10 @@
         dam:s7damImageCopyPath="/var/folders/r1/hb7npl0173xfvbpx37ft_s1w0000gn/T/scene79198647501347338836.tmp"
         dam:s7damType="Image"
         dam:s7damWidth="{Long}500"
-        jcr:lastModified="{Date}2015-08-14T15:37:50.686-03:00"
+        jcr:lastModified="{Date}2015-08-14T15:52:48.465-03:00"
         jcr:lastModifiedBy="admin"
-        jcr:primaryType="dam:AssetContent">
+        jcr:primaryType="dam:AssetContent"
+        restored="{Boolean}true">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:extracted="{Date}2015-08-14T15:37:48.824-03:00"
@@ -28,6 +34,9 @@
             dam:size="{Long}9152"
             dam:writebackEnable="False"
             dc:format="image/png"
+            dc:modified="{Date}2015-08-14T15:41:26.330-03:00"
+            jcr:lastModified="{Date}2015-08-14T15:52:48.409-03:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}300"
